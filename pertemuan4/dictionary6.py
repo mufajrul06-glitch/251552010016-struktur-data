@@ -11,6 +11,3 @@ inventory["monitor"] = 8
 # Mengurangi stok
 inventory["laptop"] = 2
 print(inventory)
-
-if barang in inventory: # pyright: ignore[reportUndefinedVariable]
-    print(f"Stok {barang}: {inventory[barang]}")

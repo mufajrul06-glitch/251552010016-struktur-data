@@ -13,13 +13,9 @@ login_attempts = [
 ("budi", "abc123")
 ]
 
-input_username = input("Masukkan username: ")
-input_password = input("Masukkan password: ") 
-
-
 # Cek semua login
 for username, password in login_attempts:
-    if username in users and users[input_username] == password:
+    if username in users and users[username] == password:
          print(f"Login {username}: BERHASIL")
     else:
          print(f"Login {username}: GAGAL - Username atau password salah")
