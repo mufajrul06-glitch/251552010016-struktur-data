@@ -18,11 +18,4 @@ def print_linked_list(head):
         head = head.next
     print("null")
 
-A = node("A")
-B = node("B")
-C = node("C")
-
-A.next = B
-B.next = C
-
 print_linked_list(head)
